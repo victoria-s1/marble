@@ -1,0 +1,72 @@
+.left-col {
+    float: left;
+    width: 209px;
+    margin-top: 34px;
+}
+
+.left-col > img {
+    padding-left: 10px;
+}
+
+.catalog {
+    height: 29px;
+    padding-left: 43px;
+    width: 166px;
+    letter-spacing: 0px;
+    padding-top: 18px;
+    font-size: 13px;
+    color: #fff;
+    background-image: linear-gradient(180deg, #95836B 4%, #5D4C36 49%, #88683A 73%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.left-col ul {
+    border-radius: 7px;
+    height: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(180deg, #95836B 4%, #5D4C36 19%, #5E4E39 81%, #88683A 92%);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.left-col li {
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 20px;
+    letter-spacing: 0px;
+}
+.left-col span {
+      width: 167px;
+      height: 2px;
+      display: block;
+      padding-top: 9px;
+      margin-left: 22px;
+      border: none;
+      margin-bottom: -12px;
+      background-image: url('../../img/main/left-col/hr.png');
+      background-repeat: no-repeat;
+      background-position: center bottom;
+}
+
+.left-col a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ 
+.editor-btn, .catalog-btn {
+    text-decoration: none;
+    color: #fff;
+    margin-left: -19px;
+}
+
+.catalog-btn {
+    margin-left: 0px;
+}

@@ -1,0 +1,133 @@
+.switcher {
+    width: 105px;
+    margin-bottom: 8px;
+    height: 23px;
+    background-color: #28231d;
+    text-align: center;
+    border-radius: 0 0 7px 7px;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    -ms-border-radius: 0 0 7px 7px;
+    -o-border-radius: 0 0 7px 7px;
+}
+
+.rus, .eng {
+    cursor: pointer;
+    background-color: #28231d;
+    color: #fff;
+    padding: 0px 15px 0px 15px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+}
+
+.rus {
+    border-right: 1.5px solid #bcbab8;
+    height: 10px;
+    margin-top: 7px;
+}
+
+.highlight-lang {
+    color: #e0c883;
+}
+
+.header-top {
+    padding-top: 36px;
+    background-image: url('../../img/header/tiger.png');
+    height: 176px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.header-top img {
+    width: auto;
+    float: left;
+    padding-left: 41px;
+}
+
+.header-top h1 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    flex-direction:column;
+    text-align: right;
+    margin-top: 46px;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    font-size: 25px;
+    background-image: linear-gradient(181deg, #CCB171 47%, #927546 76%);
+    width: 372px;
+}
+
+.header-top h2 {
+    color: #fff;
+    font-weight: 400;
+    width: 548px;
+    margin-top: 1px;
+    text-align: right;
+    font-size: 16px;
+}
+
+.menu-header {
+    background-image: url('../../img/header/nav.png');
+    height: 46px;
+    background-repeat: no-repeat;
+}
+
+.menu-header > ul {
+    margin: 0;
+    padding-top: 13px;
+    letter-spacing: -1px;
+    font-weight: 200;
+    padding-left: 20px;
+}
+
+.menu-header li {
+    display: inline;
+    padding-left: 22px;
+    padding-right: 28px;
+    border-right: 1px solid #735333;
+}
+
+.menu-header li:last-child {
+    border-right: none;
+}
+
+.menu-header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu-header form {
+    display: inline;
+    width: 296px;
+}
+
+.menu-header button {
+    color: #fff;
+    font-size: 11px;
+    background-color: transparent;
+    border: none;
+    padding-top: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.menu-header button:focus, 
+#search:focus {
+    border: none;
+    outline-color: transparent;
+}
+
+#search {
+    background-color: #fff;
+    color: #fff;
+    font-size: 12px;
+    height: 21px;
+    margin-left: 2px;
+    width: 189px;
+    border: transparent;
+}
